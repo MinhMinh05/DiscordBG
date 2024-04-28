@@ -1,9 +1,4 @@
-/**
- * @name New Akame Ga Kill! Theme
- * @author ShadowDevilsAvenged
- * @description Newer Akame Ga Kill! theme for my return
- * @version 5.8
- */
+
 
 /* Main Background */
 .app_de4237 {
@@ -81,6 +76,7 @@
 .members__573eb>div,
 .theme-dark .container__7e23c,
 .theme-dark .scroller_de945b,
+.theme-dark .wrapper__216eb,
 .contentRegionScroller__9ae20,
 .standardSidebarView__12528,
 #app-mount .layer_f7d46a,
@@ -4785,7 +4781,7 @@ span.button_ae40a4.enabled__214db:hover path {
     color: #D12;
 }
 
-.app-mount .typeWindows_e41dab:after {
+#app-mount .typeWindows_e41dab:after {
     content: "Discord của MinhMinh";
     color: rgb(255,255,255,0.5);
     font-weight: 500;
@@ -4795,5 +4791,5 @@ span.button_ae40a4.enabled__214db:hover path {
         left: 43.2%;
     }
 
-.app-mount .wordmark__5b8c9 {top: 3.3px;}
-.app-mount .winButton_f17fb6 {top: 2px;}
+#app-mount .wordmark__5b8c9 {top: 3.3px;}
+#app-mount .winButton_f17fb6 {top: 2px;}
