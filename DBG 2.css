@@ -4780,3 +4780,16 @@ span.button_ae40a4.enabled__214db:hover path {
 .red-button {
     color: #D12;
 }
+
+.app-mount .typeWindows_e41dab:after {
+    content: "Discord của MinhMinh";
+    color: rgb(255,255,255,0.5);
+    font-weight: 500;
+
+        position: absolute;
+        top: 8px;
+        left: 43.2%;
+    }
+
+.app-mount .wordmark__5b8c9 {top: 3.3px;}
+.app-mount .winButton_f17fb6 {top: 2px;}
