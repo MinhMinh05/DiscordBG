@@ -12,13 +12,13 @@
 /* Guild and Top bar transparency */
 .guilds-1SWlCJ {
 	background:transparent;
-	background-image: var(--transparency-1);
+	background-image: var(--transparency-2);
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
 .container-3w7J-x, .privateChannels-1nO12o, .sidebarRegion-VFTUkN {
 	background: transparent;
-	background-image: var(--transparency-2);
+	background-image: var(--transparency-4);
 }
 /* chat and top area and other secondary pages */
  .da-app #friends, .contentRegion-3nDuYy, .chat-3bRxxu, .theme-dark .container-1D34oG {
