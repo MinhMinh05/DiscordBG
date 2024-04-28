@@ -27,16 +27,16 @@
 /* Guild and Top bar transparency */
 .theme-dark .wrapper__216eb {
     background:transparent;
-    background-image: var(--transparency-2);
+    background-image: var(--transparency-1);
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
 #app-mount .container__7e23c, .privateChannels__9b518, .app_b1f720 .standardSidebarView__12528, .app_b1f720 .container_bd15da {
     background: transparent;
-    background-image: var(--transparency-4); 
+    background-image: var(--transparency-2); 
 }
 .theme-dark .panels__58331, .theme-light .panels__58331 {
-    background: var(--transparency-4);
+    background: var(--transparency-2);
 }
 /* chat and top area and other secondary pages */
 .app_b1f720 .chat__52833, .app_b1f720 .scrollableContainer_ff917f {
