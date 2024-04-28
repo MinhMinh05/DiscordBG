@@ -1398,7 +1398,7 @@
 }
 
 .theme-dark .wrapper__53064:hover {
-    background: #C13 !important;
+    background: transparent;
     border: 2px inset #912;
 }
 
@@ -1409,7 +1409,7 @@
 
 .theme-dark .wrapperAudio__178e9,
 .attachment__06ca3 {
-    background: rgba(0, 0, 0, .5);
+    background: transparent;
     border-color: rgba(255, 255, 255, .3);
 }
 
