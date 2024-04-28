@@ -1,4 +1,68 @@
+:root{
+     --activetext-colour: white;
+ 
+     --primary1-colour: red;
+     --primary2-colour: rgba(255,0,0,0.5);
+     --primary3-colour: rgba(100,0,0,0.6);
+ 
+     --secondary1-colour: rgba(50,50,50,0.3);
+     --secondary2-colour: rgba(100,100,100,0.5);
+     --secondary3-colour: rgba(0,0,0,0.5);
+ 
+     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ }
 
+
+#app-mount {
+    background: var(--background-image);
+}
+
+/* removing backgrounds */
+
+/* Guild and Top bar transparency */
+.theme-dark .wrapper__216eb {
+    background:transparent;
+    background-image: var(--transparency-1);
+}
+
+/* transparency for channels and members list and private channels and left side of settings*/
+#app-mount .container__7e23c, .privateChannels__9b518, .app_b1f720 .standardSidebarView__12528, .app_b1f720 .container_bd15da {
+    background: transparent;
+    background-image: var(--transparency-2); 
+}
+.theme-dark .panels__58331, .theme-light .panels__58331 {
+    background: var(--transparency-2);
+}
+/* chat and top area and other secondary pages */
+.app_b1f720 .chat__52833, .app_b1f720 .scrollableContainer_ff917f {
+    background: transparent;
+    background-image: var(--transparency-3);
+}
+/* removing color from specific class */
+.panels__58331 {
+    background-color: transparent;
+}
+/* extra for transparency 3 special case */
+.themeDark-3Ap_7i, .app_b1f720 .chat__52833 {
+    background-color: transparent;
+    background-image: var(--transparency-3);
+}
+.typeWindows_e41dab {
+    background-image: var(--transparency-5);
+}
+/* removes margin from top area and adds it to the nav buttons + discord logo */
+.typeWindows_e41dab {
+    height: 21px;
+    margin-top: 0px;
+}
+/* removes a border under better discord at channels */
+.unread-1xRYoj {
+    display:none;
+}
 
 /* Main Background */
 .app_de4237 {
